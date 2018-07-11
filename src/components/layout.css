@@ -1,0 +1,100 @@
+html {
+  font-size: 90%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+body {
+  margin: 0;
+}
+@media (min-width: 8.021in) {
+  body {
+    width: 8.02in;
+    height: 10.5in;
+    overflow: hidden;
+  }
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+small {
+  font-size: 80%;
+}
+* {
+  box-sizing: inherit;
+}
+*:before {
+  box-sizing: inherit;
+}
+*:after {
+  box-sizing: inherit;
+}
+body {
+  color: hsla(0, 0%, 0%, 0.8);
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 1.45rem;
+
+  list-style-position: outside;
+  list-style-image: none;
+}
+p,
+address {
+  margin: 0;
+  padding: 0;
+
+  font-style: normal;
+}
+strong {
+  font-weight: bold;
+}
+li {
+  margin-bottom: calc(1.45rem / 3);
+}
+ul li {
+  padding-left: 0;
+}
+li *:last-child {
+  margin-bottom: 0;
+}
+p *:last-child {
+  margin-bottom: 0;
+}
+li > p {
+  margin-bottom: calc(1.45rem / 2);
+}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}

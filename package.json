@@ -1,0 +1,25 @@
+{
+  "name": "nate-radebaugh-resume",
+  "description": "Nate Radebaugh Resume",
+  "version": "0.0.1",
+  "dependencies": {
+    "babel-plugin-styled-components": "next",
+    "gatsby": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-styled-components": "next",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet": "^5.2.0",
+    "serve": "^9.2.0",
+    "styled-components": "latest"
+  },
+  "scripts": {
+    "start": "serve public/",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.js"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  }
+}
